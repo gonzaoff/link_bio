@@ -2,6 +2,7 @@ import reflex as rx
 from link_bio.components.links_buttom import link_button
 from link_bio.components.title import title
 
+# Navegador de pestañas
 def links() -> rx.Component:
     return rx.vstack(
         title("Comunidad"),

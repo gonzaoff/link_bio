@@ -7,4 +7,4 @@ def title(text: str) -> rx.Component:
         text,
         size="6",
         style=styles.title_style
-        ) 
+    ) 

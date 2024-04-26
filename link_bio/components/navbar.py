@@ -1,8 +1,10 @@
 import reflex as rx
 from link_bio.styles.styles import Size as Size
 
+# Componente de la barra de navegacion
 def navbar() -> rx.Component:
     return rx.hstack(
+        # Nombre
         rx.text(
             "Nutricore",
         ),
